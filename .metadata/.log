@@ -1,0 +1,1657 @@
+!SESSION 2018-08-29 13:13:37.119 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-29 13:14:12.088
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:15:36.074
+!MESSAGE Python not configured.
+!STACK 0
+org.python.pydev.core.NotConfiguredInterpreterException: Python not configured.
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getDefaultInterpreterInfo(AbstractInterpreterManager.java:236)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1339)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:893)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:852)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1216)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1538)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1567)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:280)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:15:36.149
+!MESSAGE Info: Rebuilding internal caches: E:\python\github-simple-analyzer-python\.metadata\.plugins\org.eclipse.core.resources\.projects\github\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 1 1 2018-08-29 13:15:46.064
+!MESSAGE - Ok, file is non-null. Getting info on:C:\Users\admin\Anaconda3\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Making exec... C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.6</version>
+<executable>C:\Users\admin\Anaconda3\python.exe</executable>
+<lib>C:\Users\admin\Anaconda3\DLLs</lib>
+<lib>C:\Users\admin\Anaconda3\lib</lib>
+<lib>C:\Users\admin\Anaconda3</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\win32</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\win32\lib</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_blake2</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_findvs</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_pickle</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha1</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha3</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winapi</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>astropy</forced_lib>
+<forced_lib>astropy.units</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nose</forced_lib>
+<forced_lib>nose.tools</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>werkzeug</forced_lib>
+<forced_lib>winreg</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>36</value></string_substitution_var>
+</xml>
+
+!STACK 0
+java.lang.RuntimeException: - Ok, file is non-null. Getting info on:C:\Users\admin\Anaconda3\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Making exec... C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.6</version>
+<executable>C:\Users\admin\Anaconda3\python.exe</executable>
+<lib>C:\Users\admin\Anaconda3\DLLs</lib>
+<lib>C:\Users\admin\Anaconda3\lib</lib>
+<lib>C:\Users\admin\Anaconda3</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\win32</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\win32\lib</lib>
+<lib>C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_blake2</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_findvs</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_pickle</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha1</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha3</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winapi</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>astropy</forced_lib>
+<forced_lib>astropy.units</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nose</forced_lib>
+<forced_lib>nose.tools</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>werkzeug</forced_lib>
+<forced_lib>winreg</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>36</value></string_substitution_var>
+</xml>
+
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker.autoConfigSingleApply(AutoConfigMaker.java:183)
+	at org.python.pydev.plugin.ConfigureInterpreterJob.runInUIThread(ConfigureInterpreterJob.java:62)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.python.pydev.plugin.preferences.CheckDefaultPreferencesDialog$1.run(CheckDefaultPreferencesDialog.java:244)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.python.pydev.shared_core 1 1 2018-08-29 13:15:46.107
+!MESSAGE Restoring info for: C:\Users\admin\Anaconda3\python.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Users\admin\Anaconda3\python.exe
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:450)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:276)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:573)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker$1.run(AutoConfigMaker.java:143)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Expecting: E:\python\github-simple-analyzer-python\.metadata\.plugins\org.python.pydev\v1_6a7rfzdpfpyz9hl0ttlw7g7q1\modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:397)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:448)
+	... 4 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2018-08-29 13:17:23.579
+!MESSAGE Finished restoring information for: C:\Users\admin\Anaconda3\python.exe at: E:\python\github-simple-analyzer-python\.metadata\.plugins\org.python.pydev\v1_6a7rfzdpfpyz9hl0ttlw7g7q1
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Users\admin\Anaconda3\python.exe at: E:\python\github-simple-analyzer-python\.metadata\.plugins\org.python.pydev\v1_6a7rfzdpfpyz9hl0ttlw7g7q1
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:495)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:276)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:573)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker$1.run(AutoConfigMaker.java:143)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:17:37.679
+!MESSAGE Info: Rebuilding internal caches: E:\python\github-simple-analyzer-python\.metadata\.plugins\com.python.pydev.analysis\python_v1_6a7rfzdpfpyz9hl0ttlw7g7q1\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:25:58.368
+!MESSAGE The python client still hasn't connected back to the eclipse java vm (will retry...)
+!STACK 0
+java.lang.RuntimeException: The python client still hasn't connected back to the eclipse java vm (will retry...)
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.startIt(AbstractShell.java:334)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:235)
+	at org.python.pydev.ast.codecompletion.shell.ShellsContainer.getServerShell(ShellsContainer.java:167)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getServerShell(AbstractShell.java:222)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:373)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:26:16.149
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@68b0573a
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51598
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:26:27.165
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@290ff9a4
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51600
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:26:36.576
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@41a3556e
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51602
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:26:58.107
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@2326e1b6
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51605
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:27:10.623
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@556d7a73
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51607
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:27:27.012
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@5f54229e
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51609
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:319)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:371)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:27:38.215
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@21679fe5
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51614
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getBuiltinModule(SystemModulesManager.java:319)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:371)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:28:07.241
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@705aedab
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51617
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:28:49.812
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@2fe66c16
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51620
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:29:05.652
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@254ed822
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51683
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:29:15.108
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@11b7c969
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51696
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:29:33.751
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@3216ff99
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51725
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:29:44.152
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@7c19117e
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51746
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:30:02.715
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@4daac665
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51754
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2018-08-29 13:30:13.918
+!MESSAGE ERROR reading shell. Message sent: [Ljava.lang.String;@79f1d684
+
+ProcessInfo:
+
+ - Executed: C:\Users\admin\Anaconda3\python.exe -u F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pycompletionserver.py 51757
+
+ - Environment:
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\admin\AppData\Roaming
+CLASSPATH=.
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=RANJITH
+COMSPEC=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+GOOGLE_API_KEY=no
+GOOGLE_DEFAULT_CLIENT_ID=no
+GOOGLE_DEFAULT_CLIENT_SECRET=no
+HOMEDRIVE=C:
+HOMEPATH=\Users\admin
+LOCALAPPDATA=C:\Users\admin\AppData\Local
+LOGONSERVER=\\MicrosoftAccount
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\ibm\gsk8\lib64;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\:C:\Program Files\Java\jdk9\bin;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Scripts;C:\ffmpeg\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\sqlite\;C:\Users\admin\AppData\Roaming\npm\node_modules\newman;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2018.1.2\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\sqlite;C:\Phantom\phantomjs-2.1.1-windows\bin;C:\Users\admin\Anaconda3\python.exc;F:\Python27\python.exc;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Roaming\npm\node_modules\newman\bin;;F:\eclipse_neon_python;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4501
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PYTHONPATH=F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc\pydev_sitecustomize;C:\Users\admin\Anaconda3\DLLs;C:\Users\admin\Anaconda3\lib;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\lib\site-packages;C:\Users\admin\Anaconda3\lib\site-packages\Babel-2.5.0-py3.6.egg;C:\Users\admin\Anaconda3\lib\site-packages\win32;C:\Users\admin\Anaconda3\lib\site-packages\win32\lib;C:\Users\admin\Anaconda3\lib\site-packages\Pythonwin
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\Windows
+TEMP=C:\Users\admin\AppData\Local\Temp
+TMP=C:\Users\admin\AppData\Local\Temp
+USERDOMAIN=RANJITH
+USERDOMAIN_ROAMINGPROFILE=RANJITH
+USERNAME=admin
+USERPROFILE=C:\Users\admin
+VS140COMNTOOLS=E:\4 th sem\a\Common7\Tools\
+WINDIR=C:\Windows
+
+ - Working Dir:
+F:\eclipse_neon_python\plugins\org.python.pydev.core_6.3.1.201802272029\pysrc
+
+ - OS:
+Windows 8.1
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:454)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:506)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:692)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:756)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:374)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:177)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:290)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:948)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:787)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:376)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:257)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
